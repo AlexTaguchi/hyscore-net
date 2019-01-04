@@ -20,7 +20,7 @@ Convolutional neural network for analyzing single-nuclear <sup>14</sup>N HYSCORE
 
 [2] Open a terminal or command prompt in this extracted directory and type "python ReproduceFigure.py" to run the CNN with the example HYSCORE spectra to reproduce the figure in the paper.
 
-[3] Run a single-nuclear <sup>14</sup>N HYSCORE spectrum by replacing mq_52A.par and mq_52A.spc in the Spectra folder with a phased HYSCORE time-domain pattern of your own. Then open HYnetBt.m in Matlab, adjust the filename, field, and tau values on lines 7-9 accordingly, and run the script in Matlab.
+[3] Run a single-nuclear <sup>14</sup>N HYSCORE spectrum by replacing mq_52A.par and mq_52A.spc in the Spectra folder with a phased HYSCORE time-domain pattern of your own (or leave the files alone to analyze the example spectrum). Then open HYnetBt.m in Matlab, adjust the filename, field, and tau values on lines 7-9 accordingly, and run the script in Matlab.
 
 ### Publication
 <i>in review</i>
