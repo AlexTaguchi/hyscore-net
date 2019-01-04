@@ -1,5 +1,5 @@
 # hyscore-net
-Convolutional neural network for analyzing single-nuclear 14N HYSCORE spectra
+Convolutional neural network for analyzing single-nuclear <sup>14</sup>N HYSCORE spectra
 
 ### Installation Instructions
 [1] Purchase, download, and install Matlab (https://www.mathworks.com/products/matlab.html)
