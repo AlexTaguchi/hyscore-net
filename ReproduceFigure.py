@@ -198,7 +198,7 @@ with tf.Session() as sess:
 
     # Set up figure
     if plotSelect:
-        experiments = [2, 6, 8, 10, 12, 13, 14, 15, 18]
+        experiments = [0, 4, 8, 10, 12, 13, 14, 15, 19]
     else:
         experiments = list(range(len(spectraE)))
     fig, ax = plt.subplots(nrows=len(experiments), ncols=5)
