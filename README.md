@@ -23,4 +23,4 @@ Convolutional neural network for analyzing single-nuclear <sup>14</sup>N HYSCORE
 [3] Run a single-nuclear <sup>14</sup>N HYSCORE spectrum by replacing mq_52A.par and mq_52A.spc in the Spectra folder with a phased HYSCORE time-domain pattern of your own (or leave the files alone to analyze the example spectrum). Then open HYnetBt.m in Matlab, adjust the filename, field, and tau values on lines 7-9 accordingly, and run the script in Matlab.
 
 ### Publication
-<i>in review</i>
+Taguchi, A. T., Evans, E. D., Dikanov, S. A., and Griffin, R. G. Convolutional Neural Network Analysis of Two-Dimensional Hyperfine Sublevel Correlation Electron Paramagnetic Resonance Spectra. <i>J. Phys. Chem. Lett.</i>, Vol. 10, No. 5, pp.1115-1119, February, 2019. (3 minute LiveSlides presentation narrated by Taguchi, A. T. available at https://pubs.acs.org/doi/suppl/10.1021/acs.jpclett.8b03797)
