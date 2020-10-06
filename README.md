@@ -24,3 +24,7 @@ Convolutional neural network for analyzing single-nuclear <sup>14</sup>N HYSCORE
 
 ### Publication
 Taguchi, A. T., Evans, E. D., Dikanov, S. A., and Griffin, R. G. Convolutional Neural Network Analysis of Two-Dimensional Hyperfine Sublevel Correlation Electron Paramagnetic Resonance Spectra. <i>J. Phys. Chem. Lett.</i>, Vol. 10, No. 5, pp.1115-1119, February, 2019. (3 minute LiveSlides presentation narrated by Taguchi, A. T. available at https://pubs.acs.org/doi/suppl/10.1021/acs.jpclett.8b03797)
+
+### Troubleshooting
+- `AttributeError: type object 'h5py.h5r.Reference' has no attribute '__reduce_cython__'`
+  - Solution: Downgrade h5py version by opening a terminal or command prompt and typing "pip install h5py==2.8.0"
