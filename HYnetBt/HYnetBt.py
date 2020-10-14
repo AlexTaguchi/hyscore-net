@@ -20,7 +20,7 @@ pixelWidth = int(np.sqrt(len(spectraE[0])))
 spectraE = np.reshape(spectraE, (len(spectraE), pixelWidth, pixelWidth))
 
 # Experiment parameters
-paramE = pd.read_csv('Spectra/Preprocessed/params.csv').values
+paramE = pd.read_csv('Spectra/Preprocessed/params.csv').values.astype('float')
 paramE /= 1000
 
 # Experimental one-hot encoded classifications for validation
